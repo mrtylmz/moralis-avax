@@ -1,3 +1,1 @@
-install phyton 
-pip intall web 3
-run py programmname.py on command area
+You need to install web3 and flash libraries via this command , pip install web3,Flask
