@@ -1,4 +1,5 @@
 <b>ENDPOINTS FOR CHAINLINK</b> <br>
+Fetch BTC, ETH , AVAX , JOE , LINK prices via using Chainlink Avalanche Mainnet Oracle data feeds. <br>
 This code has been deployed in heroku as well.<br>
 You can check the api endpoint url on heroku <br>
 https://moralis-hackathon.herokuapp.com/  <br>
