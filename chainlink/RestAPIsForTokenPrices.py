@@ -16,6 +16,10 @@ addrLink= '0x49ccd9ca821EfEab2b98c60dC60F518E765EDe9a' #Link-USD pair
 app = Flask(__name__)
 
 
+@app.route('/')
+def home():
+    return 'In order to see token prices please go to /api/prices endpoint'
+
 @app.route('/api/prices/')
 async def getPrices():
   contractAvax = await getContract(addrAvax)
