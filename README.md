@@ -1,1 +1,5 @@
-You need to install web3 and flash libraries via this command , pip install web3,Flask
+<b>ENDPOINTS</b> <br>
+api/prices/   -> Return avax, joe and link token price <br>
+api/prices/AVAX-USD   -> Return AVAX price <br>
+api/prices/JOE-USD   -> Return JOE price <br>
+api/prices/LINK-USD   -> Return Link price <br>
